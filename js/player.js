@@ -1,5 +1,7 @@
 // JS Start
 
+// Common Function
+
 function getTheOrderList() {
     const orderList = document.getElementById('order-list');
     return orderList;
