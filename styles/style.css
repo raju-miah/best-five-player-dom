@@ -193,3 +193,15 @@ header p {
 }
 
 /* Player card and Main section End */
+
+
+/* Footer Style Start */
+
+footer {
+    display: grid;
+    place-items: center;
+    border-top: 1px solid #747474;
+    padding: 50px 0px;
+}
+
+/* Footer Style End */
