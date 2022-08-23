@@ -63,3 +63,133 @@ header p {
 }
 
 /* Header Style End */
+
+
+/* Player card and Main section start */
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid #444;
+    flex-basis: 31%;
+    gap: 2px;
+    background: #000;
+    margin-bottom: 50px;
+}
+
+.card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.card p {
+    font-size: 16px;
+    margin: 10px 0px;
+    color: #999;
+}
+
+.card button {
+    display: inline-block;
+    padding: 10px 75px;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 10px;
+    color: #fff;
+    background: blue;
+}
+
+.card-box {
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.select-player ol {
+    text-align: left;
+    padding-left: 50px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+
+.select-player li {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+
+.player-card-container {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.player-card-left {
+    flex-basis: 78%;
+}
+
+.player-card-right {
+    flex-basis: 20%;
+    margin-top: 22px;
+}
+
+.card.select-player {
+    height: 348px;
+}
+
+.per-player {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.budget input {
+    width: 100px;
+    height: 40px;
+}
+
+.budget button {
+    font-size: 17px;
+    padding: 8px 0px;
+    width: 100%;
+
+}
+
+.budget {
+    padding: 0 20px;
+}
+
+.total-player-budget {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.manager {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.coach {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Player card and Main section End */
