@@ -192,6 +192,16 @@ header p {
     align-items: center;
 }
 
+/* Common Input field Style Start */
+
+.input-field {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+/* Common Input field Style End */
+
+
 /* Player card and Main section End */
 
 
