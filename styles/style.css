@@ -1,0 +1,65 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+/* Common Style */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #212121;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* Header Style Start */
+
+header {
+    background: #151515;
+    color: #fff;
+    padding: 200px 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+.header-img {
+    position: absolute;
+    left: 0px;
+    bottom: 0;
+    width: 250px;
+}
+
+.header-img-2 {
+    position: absolute;
+    right: 80px;
+    top: 80px;
+}
+
+.header-text {
+    width: 800px;
+    margin: auto;
+}
+
+/* Header Style End */
